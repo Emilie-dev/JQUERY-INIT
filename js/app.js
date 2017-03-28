@@ -5,48 +5,14 @@ $("#removeDiv").click(function() {
 });
 
 
+// Exercice 2
+
+$("#setText").change(function() {
+	$("#needText").append($("#setText").val());
+});
 
 // Exercice 3
 
 $("#setColor").click(function() {
 	$(".yellow").css("background-color", "red");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*$(function($){
-    $(".yellow").css('background-color', 'red')
-});*/
